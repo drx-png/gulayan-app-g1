@@ -12,6 +12,7 @@ function Login() {
   //na-update na ito
 
   const handleChange = (e) => {
+    //conflict update sample
     const { name, value, type, checked } = e.target
     setFormData(prev => ({
       ...prev,
