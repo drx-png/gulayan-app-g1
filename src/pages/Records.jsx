@@ -34,6 +34,7 @@ function Records() {
     try {
       //TODO: make add new record functional
       //update 1
+      //update 3
       toast.success("New record saved.");
     } catch (error) {
       console.error(error);
