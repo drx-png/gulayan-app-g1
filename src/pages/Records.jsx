@@ -46,6 +46,7 @@ function Records() {
   const handleUpdateRecord = async (data) => {
     try {
       //TODO make update record functional
+      // update 3
       toast.success("Plant data updated.");
     } catch (error) {
       console.error(error);
