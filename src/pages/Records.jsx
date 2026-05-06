@@ -23,14 +23,17 @@ function Records() {
 
   const handleSearchPlants = async () => {
     // TODO search from the the backend; in case that all records is not yet loaded
+    // update 3
   }
   const handleLoadRecords = async (page = 1, append = false) => {
     //TODO: load the data from the database
     //TODO: implement paginated data loading
+    // update 2
   }
   const handleAddRecord = async (formData) => {
     try {
       //TODO: make add new record functional
+      //update 1
       toast.success("New record saved.");
     } catch (error) {
       console.error(error);
