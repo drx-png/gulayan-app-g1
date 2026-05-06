@@ -24,7 +24,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault()
     //TODO make the login process functional
-    //napagana na ni programmer 2
+    // login update from programmer 1
   }
 
   return (
